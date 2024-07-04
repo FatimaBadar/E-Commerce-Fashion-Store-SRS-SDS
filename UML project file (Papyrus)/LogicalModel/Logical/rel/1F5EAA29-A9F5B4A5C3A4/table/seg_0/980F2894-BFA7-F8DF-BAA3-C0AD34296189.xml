@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="980F2894-BFA7-F8DF-BAA3-C0AD34296189" name="Relation_2">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="User_userID" id="22631FD0-E55C-1111-98E7-BDE90E6FC1C6">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="421BF7F4-354F-BB15-6604-00E155245884" referredColumn="01FB70B8-BA7F-5D7F-10FE-250FE5BB76EA"/>
+</associations>
+</Column>
+<Column name="Product_productName" id="9C52CD83-85DB-0FAC-25B0-7AAB55E046B4">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E8AC1B7-10D8-35BF-E95F-B820670777E0" referredColumn="A1758644-73C6-386D-726C-883D92748D9D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDE2C463-9420-941A-7DD9-BDBC0C990305" name="Relation_2_PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22631FD0-E55C-1111-98E7-BDE90E6FC1C6"/>
+<colUsage columnID="9C52CD83-85DB-0FAC-25B0-7AAB55E046B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E1518CCA-0292-FF72-F3BD-DD2CB4BFD544" name="FK_ASS_2">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<generatorID>F4AE63CA-6E1D-FD14-0C6C-076B77AFFA51</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="22631FD0-E55C-1111-98E7-BDE90E6FC1C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5257F18B-37FA-4BA3-7A74-C0B342F3B997" name="FK_ASS_3">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<generatorID>F4AE63CA-6E1D-FD14-0C6C-076B77AFFA51</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9C52CD83-85DB-0FAC-25B0-7AAB55E046B4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EF978DE3-AE1A-3CEB-6424-DF6FF58CCE71" name="OrderDetails">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>C8D97501-7EA9-1D92-A1BF-510A830516F1</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="orderID" id="326B0D42-1FF2-F99F-CAA3-2D85EE285166">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>6A1FD114-348F-E6D0-0A8A-8EC8AAE16672</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="EB0EEBA5-0677-0B8C-DC54-4416EBDEB5AB">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>9FBA4EF7-58F1-D206-BE10-9D696B8AFBB9</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="shipping" id="30FE7E99-6B86-72FF-741D-3B68AA89D096">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>D34B9AB6-BB1E-5BDA-84F2-DC5A58DA51D1</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="discount" id="59A49589-20EF-FAA1-9C1F-E401B304E456">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>1C1AC75B-EA19-74C3-1BC0-39EAEB800B24</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="D182E25B-F27C-E513-B93F-BC0C58AA5283">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>1B479D28-2396-752A-D877-720815B675C9</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D826AE4A-8429-9D3A-7D93-0E394F696D3D" name="OrderDetails_PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>2D5DD644-3A42-EC4F-3BCE-2D6DFED79AA5</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="326B0D42-1FF2-F99F-CAA3-2D85EE285166"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

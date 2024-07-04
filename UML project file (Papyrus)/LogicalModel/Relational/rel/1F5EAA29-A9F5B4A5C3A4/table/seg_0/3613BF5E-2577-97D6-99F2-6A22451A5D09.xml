@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3613BF5E-2577-97D6-99F2-6A22451A5D09" name="Cart">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>D4EEDBE6-8C76-649D-915A-A38C753C639F</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cartID" id="BF3B1AB3-AA36-E2CC-D3D5-C3339991C1F6">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>83B97C3A-0FE2-B345-C03C-8EE9D9E147C2</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="8369D9B2-3253-A0D1-DF15-978ED657BC73">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>C068C0D0-0729-1459-3996-343D7E9F8D33</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="productName" id="F6E6CA85-15B5-3E9B-B0A1-C50F0FB289A4">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>3AE32773-D24D-39FA-C812-23FBB205C26F</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="422D24EF-A7CA-B20D-6A49-3D0CA76C4363">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>0344A566-4729-F607-E8A8-79819C17CFE3</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OrderDetails_orderID" id="A7E87431-0FFB-0438-DFC6-54244424B0FF">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>3EDEB930-80DF-C4CA-C3EE-64D834471F52</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F3C67811-4F12-B695-DC01-A3AA5195A4CB" referredColumn="326B0D42-1FF2-F99F-CAA3-2D85EE285166"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B438868D-78C8-D022-7176-40165E079129" name="Cart_PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>D49B241F-7166-3965-BF89-975E159B2BC0</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF3B1AB3-AA36-E2CC-D3D5-C3339991C1F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3B6CA861-D529-E7DC-8342-1C6A196EE20F" name="Cart__IDX">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F466E127-FBE4-B86D-B749-44054E0132B1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A7E87431-0FFB-0438-DFC6-54244424B0FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A6EC72EE-5171-BFF2-ED3D-E71058295A6A" name="Cart_OrderDetails_FK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<generatorID>F466E127-FBE4-B86D-B749-44054E0132B1</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E87431-0FFB-0438-DFC6-54244424B0FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

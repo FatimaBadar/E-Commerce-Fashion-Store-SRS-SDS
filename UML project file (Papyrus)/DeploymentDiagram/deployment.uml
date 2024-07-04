@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_vNersHZ3Ee2pMI3Rw96QsQ" name="deployment">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_vOf_YHZ3Ee2pMI3Rw96QsQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_d9eRkHZ5Ee2pMI3Rw96QsQ" client="_8kprsHZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_e-SOUHZ5Ee2pMI3Rw96QsQ" client="_6KbE8HZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_fYHqoHZ5Ee2pMI3Rw96QsQ" client="_-W7hoHZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_f7LUYHZ5Ee2pMI3Rw96QsQ" client="_r22RoHZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_gZBuAHZ5Ee2pMI3Rw96QsQ" client="_3F4V4HZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_g-yGcHZ5Ee2pMI3Rw96QsQ" client="_zWt8gHZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_hjRTkHZ5Ee2pMI3Rw96QsQ" client="_4ozhMHZ4Ee2pMI3Rw96QsQ" supplier="_lROBcHZ4Ee2pMI3Rw96QsQ"/>
+  <packagedElement xmi:type="uml:Device" xmi:id="_FcbvQHZ6Ee2pMI3Rw96QsQ" name="PC">
+    <nestedClassifier xmi:type="uml:Device" xmi:id="_JEY_UHZ4Ee2pMI3Rw96QsQ" name="Backend server">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_lROBcHZ4Ee2pMI3Rw96QsQ" name="PHP"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_meFdMHZ4Ee2pMI3Rw96QsQ" name="Javascript"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_-W7hoHZ4Ee2pMI3Rw96QsQ" name="payment.php"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_8kprsHZ4Ee2pMI3Rw96QsQ" name="account.php"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_r22RoHZ4Ee2pMI3Rw96QsQ" name="fashionstore database"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_xCZJcHZ4Ee2pMI3Rw96QsQ" name="home.php"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_zWt8gHZ4Ee2pMI3Rw96QsQ" name="products.php"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_6KbE8HZ4Ee2pMI3Rw96QsQ" name="review.php"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_3F4V4HZ4Ee2pMI3Rw96QsQ" name="cart.php"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_4ozhMHZ4Ee2pMI3Rw96QsQ" name="wishlist.php"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Device" xmi:id="_9oFUEHZ3Ee2pMI3Rw96QsQ" name="Webserver">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_DM0H8HZ4Ee2pMI3Rw96QsQ" name="Website: HTML + CSS"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Device" xmi:id="_pOVh0HZ5Ee2pMI3Rw96QsQ" name="Database">
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_uH7G8HZ5Ee2pMI3Rw96QsQ" name="MySQL"/>
+      <nestedClassifier xmi:type="uml:Artifact" xmi:id="_1zOlwHZ5Ee2pMI3Rw96QsQ" name="Apache"/>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Node" xmi:id="_mFw8cHZ7Ee2pMI3Rw96QsQ" name="&lt;&lt;component>>"/>
+    <nestedNode xmi:type="uml:ExecutionEnvironment" xmi:id="_JY5IUHZ7Ee2pMI3Rw96QsQ" name="Fashionstore.exe"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Artifact" xmi:id="_fjh-gHZ7Ee2pMI3Rw96QsQ" name="Fashionstore.jar">
+    <manifestation xmi:type="uml:Manifestation" xmi:id="_ubDMYHZ7Ee2pMI3Rw96QsQ" client="_fjh-gHZ7Ee2pMI3Rw96QsQ" supplier="_mFw8cHZ7Ee2pMI3Rw96QsQ" utilizedElement="_mFw8cHZ7Ee2pMI3Rw96QsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_44MgsHZ7Ee2pMI3Rw96QsQ" name="phpmyadmin" memberEnd="_44ajIHZ7Ee2pMI3Rw96QsQ _44cYUHZ7Ee2pMI3Rw96QsQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_44YG4HZ7Ee2pMI3Rw96QsQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_44ZVAHZ7Ee2pMI3Rw96QsQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_44ajIHZ7Ee2pMI3Rw96QsQ" name="database" type="_pOVh0HZ5Ee2pMI3Rw96QsQ" association="_44MgsHZ7Ee2pMI3Rw96QsQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_44cYUHZ7Ee2pMI3Rw96QsQ" name="backend server" type="_JEY_UHZ4Ee2pMI3Rw96QsQ" association="_44MgsHZ7Ee2pMI3Rw96QsQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_Nb2K8HZ8Ee2pMI3Rw96QsQ" name="HTTP requests" memberEnd="_Nb2K83Z8Ee2pMI3Rw96QsQ _Nb5OQHZ8Ee2pMI3Rw96QsQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Nb2K8XZ8Ee2pMI3Rw96QsQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Nb2K8nZ8Ee2pMI3Rw96QsQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Nb2K83Z8Ee2pMI3Rw96QsQ" name="backend server" type="_JEY_UHZ4Ee2pMI3Rw96QsQ" association="_Nb2K8HZ8Ee2pMI3Rw96QsQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Nb5OQHZ8Ee2pMI3Rw96QsQ" name="webserver" type="_9oFUEHZ3Ee2pMI3Rw96QsQ" association="_Nb2K8HZ8Ee2pMI3Rw96QsQ"/>
+  </packagedElement>
+</uml:Model>

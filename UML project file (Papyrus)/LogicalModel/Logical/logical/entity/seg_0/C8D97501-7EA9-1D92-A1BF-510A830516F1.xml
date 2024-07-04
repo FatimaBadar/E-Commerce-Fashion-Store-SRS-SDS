@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C8D97501-7EA9-1D92-A1BF-510A830516F1" name="OrderDetails">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:21:43 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="orderID" id="6A1FD114-348F-E6D0-0A8A-8EC8AAE16672">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:21:51 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="9FBA4EF7-58F1-D206-BE10-9D696B8AFBB9">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:22:08 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="shipping" id="D34B9AB6-BB1E-5BDA-84F2-DC5A58DA51D1">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:22:22 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="discount" id="1C1AC75B-EA19-74C3-1BC0-39EAEB800B24">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:22:43 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="total" id="1B479D28-2396-752A-D877-720815B675C9">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:22:52 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2D5DD644-3A42-EC4F-3BCE-2D6DFED79AA5" name="OrderDetails PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:22:07 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6A1FD114-348F-E6D0-0A8A-8EC8AAE16672</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

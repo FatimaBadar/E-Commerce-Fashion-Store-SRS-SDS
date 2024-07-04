@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fHr60HXdEe2pm5oJ40gBVQ" name="StateDiag">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fNRlcHXdEe2pm5oJ40gBVQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_fKjBkHXdEe2pm5oJ40gBVQ" name="Fashion Store Product Management">
+    <region xmi:type="uml:Region" xmi:id="_fLuGQHXdEe2pm5oJ40gBVQ" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_Sj6cgHZyEe2WycsODzVWhQ" source="_1HGjAHXeEe2pm5oJ40gBVQ" target="_QkDIcHZwEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XA8H0HZ6Ee2WycsODzVWhQ" name="if[valid]" source="_442S4HZ5Ee2WycsODzVWhQ" target="_W78zAHXeEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_4lNTQHZ7Ee2WycsODzVWhQ" source="_lEfQcHXdEe2pm5oJ40gBVQ" target="_1HGjAHXeEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_5Tc5UHZ7Ee2WycsODzVWhQ" source="_gD4dUHXdEe2pm5oJ40gBVQ" target="_lEfQcHXdEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_7WyqEHZ7Ee2WycsODzVWhQ" source="_Diu7kHXeEe2pm5oJ40gBVQ" target="_1HGjAHXeEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_OCc38HZ8Ee2WycsODzVWhQ" name="enter_product_details" source="_QkDIcHZwEe2WycsODzVWhQ" target="_yGuN6HZwEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_-eeXQHZ8Ee2WycsODzVWhQ" name="enter_new_product_details" source="_xm0IUHZ8Ee2WycsODzVWhQ" target="_vsAogHZ8Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_BH-wIHZ9Ee2WycsODzVWhQ" name="enter_product_name" source="_yQHkAHZ8Ee2WycsODzVWhQ" target="_wDkz8HZ8Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_hFWEoHZ9Ee2WycsODzVWhQ" source="_pEPEQHZxEe2WycsODzVWhQ" target="_ddfNIHZ9Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_j72XsHZ9Ee2WycsODzVWhQ" source="_ytT2UHZ8Ee2WycsODzVWhQ" target="_ddfNIHZ9Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_kpDb8HZ9Ee2WycsODzVWhQ" source="_y8xOoHZ8Ee2WycsODzVWhQ" target="_ddfNIHZ9Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_AAFegHZ-Ee2WycsODzVWhQ" source="_ddfNIHZ9Ee2WycsODzVWhQ" target="_fvP0YHZ9Ee2WycsODzVWhQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_gD4dUHXdEe2pm5oJ40gBVQ" name="start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_lEfQcHXdEe2pm5oJ40gBVQ" name="isn't_loggedin"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1EqIcHXdEe2pm5oJ40gBVQ" name="Login Verification">
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_Diu7kHXeEe2pm5oJ40gBVQ" name="verified" kind="exitPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_442S4HZ5Ee2WycsODzVWhQ" name="enter_username_and_password" kind="entryPoint"/>
+        <region xmi:type="uml:Region" xmi:id="_R-8GcHXeEe2pm5oJ40gBVQ" name="if[valid]">
+          <transition xmi:type="uml:Transition" xmi:id="_nwtJoHXeEe2pm5oJ40gBVQ" name="verified" source="_W78zAHXeEe2pm5oJ40gBVQ" target="_Diu7kHXeEe2pm5oJ40gBVQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_W78zAHXeEe2pm5oJ40gBVQ" name="credentials_verification"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_1HGjAHXeEe2pm5oJ40gBVQ" name="loggedin"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IyAvgHZwEe2WycsODzVWhQ" name="Product Manipulation">
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_QkDIcHZwEe2WycsODzVWhQ" name="add_new_product" kind="entryPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_pEPEQHZxEe2WycsODzVWhQ" name="added_product" kind="exitPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_xm0IUHZ8Ee2WycsODzVWhQ" name="update_product_details" kind="entryPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_yQHkAHZ8Ee2WycsODzVWhQ" name="delete_product" kind="entryPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_ytT2UHZ8Ee2WycsODzVWhQ" name="updated_product" kind="exitPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_y8xOoHZ8Ee2WycsODzVWhQ" name="deleted_product" kind="exitPoint"/>
+        <region xmi:type="uml:Region" xmi:id="_yGuN4HZwEe2WycsODzVWhQ" name="Region2">
+          <transition xmi:type="uml:Transition" xmi:id="_B3SjoHZxEe2WycsODzVWhQ" name="add_another_product" source="_yGuN6HZwEe2WycsODzVWhQ" target="_yGuN6HZwEe2WycsODzVWhQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_yGuN6HZwEe2WycsODzVWhQ" name="submit"/>
+        </region>
+        <region xmi:type="uml:Region" xmi:id="_tsOiEHZ8Ee2WycsODzVWhQ" name="update_another_product">
+          <transition xmi:type="uml:Transition" xmi:id="_DJZOQHZ9Ee2WycsODzVWhQ" name="update_another_product_detail" source="_vsAogHZ8Ee2WycsODzVWhQ" target="_vsAogHZ8Ee2WycsODzVWhQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_ydrCYHZ9Ee2WycsODzVWhQ" name="update_another_product" source="_vsAogHZ8Ee2WycsODzVWhQ" target="_xm0IUHZ8Ee2WycsODzVWhQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_vsAogHZ8Ee2WycsODzVWhQ" name="submit"/>
+        </region>
+        <region xmi:type="uml:Region" xmi:id="_urkfMHZ8Ee2WycsODzVWhQ" name="delete_product">
+          <transition xmi:type="uml:Transition" xmi:id="_JRyv4HZ9Ee2WycsODzVWhQ" name="delete_another_product" source="_wDkz8HZ8Ee2WycsODzVWhQ" target="_wDkz8HZ8Ee2WycsODzVWhQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_wDkz8HZ8Ee2WycsODzVWhQ" name="submit"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_ddfNIHZ9Ee2WycsODzVWhQ" name="Join14" kind="join"/>
+      <subvertex xmi:type="uml:FinalState" xmi:id="_fvP0YHZ9Ee2WycsODzVWhQ"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_p_gY8HXdEe2pm5oJ40gBVQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p_hnEHXdEe2pm5oJ40gBVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

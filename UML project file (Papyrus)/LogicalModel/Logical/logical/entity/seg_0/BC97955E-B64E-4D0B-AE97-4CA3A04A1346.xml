@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC97955E-B64E-4D0B-AE97-4CA3A04A1346" name="Wishlist">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:18:43 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="wishlistID" id="206A4B70-9394-8C7D-117A-D54B52110707">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:18:56 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="productName" id="4BE48D7A-A1EF-6A24-994C-A9CBF0689B95">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:19:06 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="username" id="6C21EE36-05AE-D184-8BD3-1B91988C0016">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:19:36 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7671F683-A5B5-D22E-800A-E7C686B15A8E" name="Wishlist PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:19:04 UTC</createdTime>
+<ownerDesignName>Logical</ownerDesignName>
+<engineerTo>
+<item key="1F5EAA29-399B-9720-0731-A9F5B4A5C3A4" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>206A4B70-9394-8C7D-117A-D54B52110707</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_fHr60HXdEe2pm5oJ40gBVQ" name="StateDiag">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_fNRlcHXdEe2pm5oJ40gBVQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_fKjBkHXdEe2pm5oJ40gBVQ" name="Shopping from Fashion Store">
+    <region xmi:type="uml:Region" xmi:id="_fLuGQHXdEe2pm5oJ40gBVQ" name="Region1">
+      <transition xmi:type="uml:Transition" xmi:id="_uLZxoHXdEe2pm5oJ40gBVQ" name="register_user" source="_iJCzAHXdEe2pm5oJ40gBVQ" target="_lEfQcHXdEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_hLGHkHXeEe2pm5oJ40gBVQ" name="if[valid]" source="_aTL0kHXeEe2pm5oJ40gBVQ" target="_f7I4IHZ5Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_upmUEHXeEe2pm5oJ40gBVQ" source="_Diu7kHXeEe2pm5oJ40gBVQ" target="_rrPskHXeEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_yZBMIHXeEe2pm5oJ40gBVQ" source="_eXf-kHXeEe2pm5oJ40gBVQ" target="_rrPskHXeEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_27FpIHXeEe2pm5oJ40gBVQ" source="_rrPskHXeEe2pm5oJ40gBVQ" target="_1HGjAHXeEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_s0cG0HZuEe2WycsODzVWhQ" source="_gD4dUHXdEe2pm5oJ40gBVQ" target="_VZMZ0HZtEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_vKxsEHZuEe2WycsODzVWhQ" source="_VZMZ0HZtEe2WycsODzVWhQ" target="_iJCzAHXdEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_kXzcQHZvEe2WycsODzVWhQ" source="_VZMZ0HZtEe2WycsODzVWhQ" target="_lEfQcHXdEe2pm5oJ40gBVQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XviCQHZxEe2WycsODzVWhQ" name="view_available_products" source="_QkDIcHZwEe2WycsODzVWhQ" target="_2QrF0HZwEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_0_qUcHZxEe2WycsODzVWhQ" name="open_cart" source="_pEPEQHZxEe2WycsODzVWhQ" target="_vtZwoHZxEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_6wVSkHZxEe2WycsODzVWhQ" name="remove_product_from_cart" source="_vtZwoHZxEe2WycsODzVWhQ" target="_vtZwoHZxEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_Sj6cgHZyEe2WycsODzVWhQ" source="_1HGjAHXeEe2pm5oJ40gBVQ" target="_QkDIcHZwEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_kBzPsHZyEe2WycsODzVWhQ" name="calculate_amount" source="_vtZwoHZxEe2WycsODzVWhQ" target="_fQXhAHZyEe2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_wW4OoHZ1Ee2WycsODzVWhQ" source="_c1_o8HZ1Ee2WycsODzVWhQ" target="_mFI5GXZ1Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_w6uikHZ1Ee2WycsODzVWhQ" source="_c1_o8HZ1Ee2WycsODzVWhQ" target="_oheYoHZ1Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XlaqsHZ2Ee2WycsODzVWhQ" name="show_order_summary" source="_fQXhAHZyEe2WycsODzVWhQ" target="_NSPAIHZ1Ee2WycsODzVWhQ"/>
+      <transition xmi:type="uml:Transition" xmi:id="_XA8H0HZ6Ee2WycsODzVWhQ" name="if[all entries valid &amp;&amp; password==confirmpassword]" source="_442S4HZ5Ee2WycsODzVWhQ" target="_W78zAHXeEe2pm5oJ40gBVQ"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_gD4dUHXdEe2pm5oJ40gBVQ" name="start"/>
+      <subvertex xmi:type="uml:State" xmi:id="_iJCzAHXdEe2pm5oJ40gBVQ" name="isn't_registered"/>
+      <subvertex xmi:type="uml:State" xmi:id="_lEfQcHXdEe2pm5oJ40gBVQ" name="is_registered"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1EqIcHXdEe2pm5oJ40gBVQ" name="Login and Registeration Verification">
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_Diu7kHXeEe2pm5oJ40gBVQ" name="verified" kind="exitPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_aTL0kHXeEe2pm5oJ40gBVQ" name="enter_username_and_password" kind="entryPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_eXf-kHXeEe2pm5oJ40gBVQ" name="verified" kind="exitPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_442S4HZ5Ee2WycsODzVWhQ" name="enter_credentials" kind="entryPoint"/>
+        <region xmi:type="uml:Region" xmi:id="_R-8GcHXeEe2pm5oJ40gBVQ" name="Region4">
+          <transition xmi:type="uml:Transition" xmi:id="_nwtJoHXeEe2pm5oJ40gBVQ" name="verified" source="_W78zAHXeEe2pm5oJ40gBVQ" target="_Diu7kHXeEe2pm5oJ40gBVQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_W78zAHXeEe2pm5oJ40gBVQ" name="credentials_verification"/>
+        </region>
+        <region xmi:type="uml:Region" xmi:id="_J6_lQHZ6Ee2WycsODzVWhQ" name="Region6">
+          <transition xmi:type="uml:Transition" xmi:id="_eS55kHZ6Ee2WycsODzVWhQ" name="verified" source="_f7I4IHZ5Ee2WycsODzVWhQ" target="_1EqIcHXdEe2pm5oJ40gBVQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_f7I4IHZ5Ee2WycsODzVWhQ" name="credentials_verification"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_rrPskHXeEe2pm5oJ40gBVQ" name="Join9" kind="join"/>
+      <subvertex xmi:type="uml:State" xmi:id="_1HGjAHXeEe2pm5oJ40gBVQ" name="loggedin"/>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_VZMZ0HZtEe2WycsODzVWhQ" name="" kind="choice"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IyAvgHZwEe2WycsODzVWhQ" name="Product Selection">
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_QkDIcHZwEe2WycsODzVWhQ" name="select_productpage" kind="entryPoint"/>
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_pEPEQHZxEe2WycsODzVWhQ" name="products_selected" kind="exitPoint"/>
+        <region xmi:type="uml:Region" xmi:id="_yGuN4HZwEe2WycsODzVWhQ" name="Region2">
+          <transition xmi:type="uml:Transition" xmi:id="_B3SjoHZxEe2WycsODzVWhQ" name="add_product_to_cart" source="_yGuN6HZwEe2WycsODzVWhQ" target="_yGuN6HZwEe2WycsODzVWhQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_QUPVYHZxEe2WycsODzVWhQ" name="show_product_details" source="_2QrF0HZwEe2WycsODzVWhQ" target="_yGuN6HZwEe2WycsODzVWhQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_TziGwHZxEe2WycsODzVWhQ" name="view_more_products" source="_yGuN6HZwEe2WycsODzVWhQ" target="_2QrF0HZwEe2WycsODzVWhQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_yGuN6HZwEe2WycsODzVWhQ" name="view_product_details"/>
+          <subvertex xmi:type="uml:State" xmi:id="_2QrF0HZwEe2WycsODzVWhQ" name="view_product_list"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:State" xmi:id="_vtZwoHZxEe2WycsODzVWhQ" name="product_in_cart"/>
+      <subvertex xmi:type="uml:State" xmi:id="_IlWhoHZyEe2WycsODzVWhQ" name="Checkout">
+        <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_fQXhAHZyEe2WycsODzVWhQ" name="proceed_to_order" kind="entryPoint"/>
+        <region xmi:type="uml:Region" xmi:id="_89K2MHZ0Ee2WycsODzVWhQ" name="Region2">
+          <transition xmi:type="uml:Transition" xmi:id="_vmMYkHZ1Ee2WycsODzVWhQ" source="_NSPAIHZ1Ee2WycsODzVWhQ" target="_c1_o8HZ1Ee2WycsODzVWhQ"/>
+          <transition xmi:type="uml:Transition" xmi:id="_gerKYHZ2Ee2WycsODzVWhQ" source="_89K2N3Z0Ee2WycsODzVWhQ" target="_eintYHZ2Ee2WycsODzVWhQ"/>
+          <subvertex xmi:type="uml:State" xmi:id="_89K2N3Z0Ee2WycsODzVWhQ" name="order"/>
+          <subvertex xmi:type="uml:State" xmi:id="__5KGMHZ0Ee2WycsODzVWhQ" name="Payment">
+            <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_NSPAIHZ1Ee2WycsODzVWhQ" name="select_payment_method" kind="entryPoint"/>
+            <connectionPoint xmi:type="uml:Pseudostate" xmi:id="_KhoEQHZ2Ee2WycsODzVWhQ" name="selected" kind="exitPoint"/>
+            <region xmi:type="uml:Region" xmi:id="_mFI5EnZ1Ee2WycsODzVWhQ" name="Region2">
+              <transition xmi:type="uml:Transition" xmi:id="_GYbaQHZ2Ee2WycsODzVWhQ" name="place_order" source="_KhoEQHZ2Ee2WycsODzVWhQ" target="_89K2N3Z0Ee2WycsODzVWhQ"/>
+              <transition xmi:type="uml:Transition" xmi:id="_OHkQMHZ2Ee2WycsODzVWhQ" source="_mFI5GXZ1Ee2WycsODzVWhQ" target="_KhoEQHZ2Ee2WycsODzVWhQ"/>
+              <transition xmi:type="uml:Transition" xmi:id="_Owt64HZ2Ee2WycsODzVWhQ" source="_oheYoHZ1Ee2WycsODzVWhQ" target="_KhoEQHZ2Ee2WycsODzVWhQ"/>
+              <subvertex xmi:type="uml:State" xmi:id="_mFI5GXZ1Ee2WycsODzVWhQ" name="cash_on_delivery"/>
+              <subvertex xmi:type="uml:State" xmi:id="_oheYoHZ1Ee2WycsODzVWhQ" name="credit_card"/>
+            </region>
+          </subvertex>
+          <subvertex xmi:type="uml:FinalState" xmi:id="_eintYHZ2Ee2WycsODzVWhQ"/>
+        </region>
+      </subvertex>
+      <subvertex xmi:type="uml:Pseudostate" xmi:id="_c1_o8HZ1Ee2WycsODzVWhQ" name="choose_payment_method" kind="choice"/>
+    </region>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_p_gY8HXdEe2pm5oJ40gBVQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p_hnEHXdEe2pm5oJ40gBVQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

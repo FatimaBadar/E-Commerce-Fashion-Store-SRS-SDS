@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="701F22C5-91AF-55E0-3DB1-7FFEF7F3A7C8" name="UserDetails">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>9A58CD3F-647D-1FC3-4295-CEFB6F13F36E</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="username" id="B1C28349-1CD8-041F-A7A0-9A279132008E">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>F2A5079B-4016-EA68-D5D1-3E331F6F5ACB</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="firstname" id="B791E530-E829-6804-278B-F287CBC0F652">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>0DA626AE-8CC0-607A-8BA2-844CCC82572B</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="lastname" id="BEE9DF44-AC11-7BE9-55E3-E38CA4440239">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>5F3DA360-C3AC-4F24-D3C1-59AC0717EAFA</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="5BC42626-9393-A126-3FB8-F3A4BA8A2915">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>7418B95D-3289-87DC-D31A-831BCF0395C6</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="2757A580-E184-BDE7-6643-892806356DD0">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>3419032B-9986-F4C7-7E2B-1A61D200E4CF</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="2659299D-995D-24E9-A33F-4E99CDB7DA95">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>5DDAA839-CDD6-3214-55EA-4DADBE7C4A94</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="F5A7A08E-0159-C601-F0D2-F04603A5AA80">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>430DD0B5-8321-724C-5CD6-930BEDA73328</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_userID" id="09CDFBF2-1342-981E-E07D-1A84C1A6B774">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>B98DF286-F455-AE68-B046-CADD39BC37C8</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E8405A26-F102-6A82-2D38-C0E903BBF2EC" referredColumn="01FB70B8-BA7F-5D7F-10FE-250FE5BB76EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D8B47264-5160-9C98-C2AC-F9059BC6B069" name="UserDetails_PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>7591DF62-BF28-20D2-CFA3-63436D7A90A2</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B1C28349-1CD8-041F-A7A0-9A279132008E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6001708C-E78D-301A-48F4-153C09CEBE14" name="UserDetails__IDX">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4E07D3D6-DC8F-D2C1-9535-A0792E581688</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="09CDFBF2-1342-981E-E07D-1A84C1A6B774"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B205E099-25FB-BE2F-2FBC-9D4DCFF2F8EE" name="UserDetails_User_FK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>4E07D3D6-DC8F-D2C1-9535-A0792E581688</generatorID>
+<ownerDesignName>Relational</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="09CDFBF2-1342-981E-E07D-1A84C1A6B774"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

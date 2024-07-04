@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VV0q0HZvEe2pMI3Rw96QsQ" name="component">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_VZuTYHZvEe2pMI3Rw96QsQ">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Model" xmi:id="_W787IHZvEe2pMI3Rw96QsQ" name="Fashion Store">
+    <packagedElement xmi:type="uml:Component" xmi:id="_bkcwQHZvEe2pMI3Rw96QsQ" name="User">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_4jNTsHZxEe2pMI3Rw96QsQ" name="accountPort" type="_bkcwQHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_MKRr0HZwEe2pMI3Rw96QsQ" client="_bkcwQHZvEe2pMI3Rw96QsQ" supplier="_qgTrkHZvEe2pMI3Rw96QsQ" contract="_qgTrkHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_KpMTkHZwEe2pMI3Rw96QsQ" client="_bkcwQHZvEe2pMI3Rw96QsQ" supplier="_mS6eEHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_LRb_UHZwEe2pMI3Rw96QsQ" client="_bkcwQHZvEe2pMI3Rw96QsQ" supplier="_otN9UHZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_cRCwgHZvEe2pMI3Rw96QsQ" name="Admin">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_1ezHgHZxEe2pMI3Rw96QsQ" name="accountPort" type="_cRCwgHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_U-ukAHZwEe2pMI3Rw96QsQ" client="_cRCwgHZvEe2pMI3Rw96QsQ" supplier="_yHopUHZvEe2pMI3Rw96QsQ" contract="_yHopUHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_TEJGoHZwEe2pMI3Rw96QsQ" client="_cRCwgHZvEe2pMI3Rw96QsQ" supplier="_sMNMsHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_Tpa98HZwEe2pMI3Rw96QsQ" client="_cRCwgHZvEe2pMI3Rw96QsQ" supplier="_sxKT4HZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_dY8MsHZvEe2pMI3Rw96QsQ" name="Product">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_NUTkEHZyEe2pMI3Rw96QsQ" name="infoPort" type="_dY8MsHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_iZUg4HZwEe2pMI3Rw96QsQ" client="_dY8MsHZvEe2pMI3Rw96QsQ" supplier="_6OSAUHZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_eSH3cHZvEe2pMI3Rw96QsQ" name="Cart">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_VsW0IHZyEe2pMI3Rw96QsQ" name="productPort" type="_dY8MsHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ah2OUHZwEe2pMI3Rw96QsQ" client="_eSH3cHZvEe2pMI3Rw96QsQ" supplier="_E8E_wHZwEe2pMI3Rw96QsQ" contract="_E8E_wHZwEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_ZrjfgHZwEe2pMI3Rw96QsQ" client="_eSH3cHZvEe2pMI3Rw96QsQ" supplier="_DFU5gHZwEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_0B4TAHZwEe2pMI3Rw96QsQ" client="_eSH3cHZvEe2pMI3Rw96QsQ" supplier="_dY8MsHZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_gb7ckHZvEe2pMI3Rw96QsQ" name="Order">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_bWFcwHZyEe2pMI3Rw96QsQ" name="cartinfoPort" type="_eSH3cHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_c1bagHZwEe2pMI3Rw96QsQ" client="_gb7ckHZvEe2pMI3Rw96QsQ" supplier="_-Gx74HZvEe2pMI3Rw96QsQ" contract="_-Gx74HZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_dQWb8HZwEe2pMI3Rw96QsQ" client="_gb7ckHZvEe2pMI3Rw96QsQ" supplier="_7yT-4HZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_1PWywHZwEe2pMI3Rw96QsQ" client="_gb7ckHZvEe2pMI3Rw96QsQ" supplier="_eSH3cHZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_h3mwYHZvEe2pMI3Rw96QsQ" name="Wishlist">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_hAc-kHZyEe2pMI3Rw96QsQ" name="productPort" type="_dY8MsHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_kj3F0HZwEe2pMI3Rw96QsQ" client="_h3mwYHZvEe2pMI3Rw96QsQ" supplier="_5DJC4HZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_2wOvoHZwEe2pMI3Rw96QsQ" client="_h3mwYHZvEe2pMI3Rw96QsQ" supplier="_dY8MsHZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_j1VoYHZvEe2pMI3Rw96QsQ" name="Review">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_-mz04HZxEe2pMI3Rw96QsQ" name="feedbackPort" type="_bkcwQHZvEe2pMI3Rw96QsQ" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_m2FAEHZwEe2pMI3Rw96QsQ" client="_j1VoYHZvEe2pMI3Rw96QsQ" supplier="_3CtcMHZvEe2pMI3Rw96QsQ" contract="_3CtcMHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_mAFzQHZwEe2pMI3Rw96QsQ" client="_j1VoYHZvEe2pMI3Rw96QsQ" supplier="_183OcHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_mYfsMHZwEe2pMI3Rw96QsQ" client="_j1VoYHZvEe2pMI3Rw96QsQ" supplier="_2gzpAHZvEe2pMI3Rw96QsQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_R_sKkHZxEe2pMI3Rw96QsQ" client="_j1VoYHZvEe2pMI3Rw96QsQ" supplier="_bkcwQHZvEe2pMI3Rw96QsQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_mS6eEHZvEe2pMI3Rw96QsQ" name="username"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_otN9UHZvEe2pMI3Rw96QsQ" name="password"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_qgTrkHZvEe2pMI3Rw96QsQ" name="userdetails"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_sMNMsHZvEe2pMI3Rw96QsQ" name="username"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_sxKT4HZvEe2pMI3Rw96QsQ" name="password"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_yHopUHZvEe2pMI3Rw96QsQ" name="admindetails"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_183OcHZvEe2pMI3Rw96QsQ" name="comment"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_2gzpAHZvEe2pMI3Rw96QsQ" name="rating"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_3CtcMHZvEe2pMI3Rw96QsQ" name="reviewinfo"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_5DJC4HZvEe2pMI3Rw96QsQ" name="wishlistinfo"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_6OSAUHZvEe2pMI3Rw96QsQ" name="productdetails"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_7yT-4HZvEe2pMI3Rw96QsQ" name="cartinfo"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_-Gx74HZvEe2pMI3Rw96QsQ" name="orderdetails"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_DFU5gHZwEe2pMI3Rw96QsQ" name="productdetails"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_E8E_wHZwEe2pMI3Rw96QsQ" name="cartinfo"/>
+  </packagedElement>
+</uml:Model>

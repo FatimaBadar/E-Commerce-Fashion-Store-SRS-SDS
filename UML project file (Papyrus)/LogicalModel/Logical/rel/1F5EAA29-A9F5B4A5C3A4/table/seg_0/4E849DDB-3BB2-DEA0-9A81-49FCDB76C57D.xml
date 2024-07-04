@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E849DDB-3BB2-DEA0-9A81-49FCDB76C57D" name="Review">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>0779309B-6580-30AB-6EC4-FEC7F7E4ABEA</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="reviewID" id="DB4A1C99-77CB-C6E1-65A7-459B05EF8272">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>4F97CA7C-09F4-DD57-32D4-7F6AEF516146</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comment" id="96E9B12E-6189-C63A-34E9-2A4F9BB0A4D2">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>95EAA40A-DF37-BEC6-71A8-074DF7BBA803</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>225</dataTypeSize>
+<ownDataTypeParameters>225,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rating" id="8738B21C-96F4-E1BB-B6D9-77D1E0B3BC3B">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>2881D082-4424-EB0B-3656-79D97EE01DF6</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="EC8B3FD3-7502-817F-8FA3-CDB49421D235">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>AF8E0B18-3A55-35E7-15C0-14CD07C61840</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_userID" id="2476E6DB-77C8-8DB1-6FC5-559E10BB8E34">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>1C583235-56C9-2F2B-FFCF-6098478A8E8E</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD82F273-58BD-123F-156A-2482D3CAF48F" referredColumn="01FB70B8-BA7F-5D7F-10FE-250FE5BB76EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A12CF454-8E72-36F5-B906-A06268A9A20B" name="Review_PK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:17 UTC</createdTime>
+<generatorID>FB105035-2E3E-E6C1-44E0-F47BE22229F3</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DB4A1C99-77CB-C6E1-65A7-459B05EF8272"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DADE9E15-E7F6-26C9-3A79-8A14F131FC34" name="Review_User_FK">
+<createdBy>Fatima</createdBy>
+<createdTime>2022-12-07 18:45:18 UTC</createdTime>
+<generatorID>4239F713-23D3-8A7C-1622-018768A52D1D</generatorID>
+<ownerDesignName>Logical</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2476E6DB-77C8-8DB1-6FC5-559E10BB8E34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

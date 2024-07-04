@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="3613BF5E-2577-97D6-99F2-6A22451A5D09" name="Cart" seqName="seg_0"/>
+   <object objectType="Table" objectID="EF978DE3-AE1A-3CEB-6424-DF6FF58CCE71" name="OrderDetails" seqName="seg_0"/>
+   <object objectType="Table" objectID="DC50A811-AB8F-DC77-2B3C-3CC6F62D5CEE" name="Product" seqName="seg_0"/>
+   <object objectType="Table" objectID="6E289003-4BF2-0669-6EC3-DF35B6E61C1A" name="ProductDetail" seqName="seg_0"/>
+   <object objectType="Table" objectID="980F2894-BFA7-F8DF-BAA3-C0AD34296189" name="Relation_2" seqName="seg_0"/>
+   <object objectType="Table" objectID="4E849DDB-3BB2-DEA0-9A81-49FCDB76C57D" name="Review" seqName="seg_0"/>
+   <object objectType="Table" objectID="D0C6F6FF-EF90-8554-70EE-0F8D625BFB54" name="User" seqName="seg_0"/>
+   <object objectType="Table" objectID="701F22C5-91AF-55E0-3DB1-7FFEF7F3A7C8" name="UserDetails" seqName="seg_0"/>
+   <object objectType="Table" objectID="2172606B-D7FB-A69F-12A1-C633FFE09CDE" name="Wishlist" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="F3C67811-4F12-B695-DC01-A3AA5195A4CB" name="Cart_OrderDetails_FK" seqName="seg_0" containerID="3613BF5E-2577-97D6-99F2-6A22451A5D09" refContainerID="EF978DE3-AE1A-3CEB-6424-DF6FF58CCE71"/>
+   <object objectType="FKIndexAssociation" objectID="421BF7F4-354F-BB15-6604-00E155245884" name="FK_ASS_2" seqName="seg_0" containerID="980F2894-BFA7-F8DF-BAA3-C0AD34296189" refContainerID="D0C6F6FF-EF90-8554-70EE-0F8D625BFB54"/>
+   <object objectType="FKIndexAssociation" objectID="6E8AC1B7-10D8-35BF-E95F-B820670777E0" name="FK_ASS_3" seqName="seg_0" containerID="980F2894-BFA7-F8DF-BAA3-C0AD34296189" refContainerID="DC50A811-AB8F-DC77-2B3C-3CC6F62D5CEE"/>
+   <object objectType="FKIndexAssociation" objectID="0FE7BCF9-5178-3F6A-895F-BB600E5C3659" name="ProductDetail_Product_FK" seqName="seg_0" containerID="6E289003-4BF2-0669-6EC3-DF35B6E61C1A" refContainerID="DC50A811-AB8F-DC77-2B3C-3CC6F62D5CEE"/>
+   <object objectType="FKIndexAssociation" objectID="76E5391B-D3B7-0FC9-7220-26FE74641A50" name="Product_Cart_FK" seqName="seg_0" containerID="DC50A811-AB8F-DC77-2B3C-3CC6F62D5CEE" refContainerID="3613BF5E-2577-97D6-99F2-6A22451A5D09"/>
+   <object objectType="FKIndexAssociation" objectID="55BF275C-C84A-B888-68D1-CFBBF29A616A" name="Product_Wishlist_FK" seqName="seg_0" containerID="DC50A811-AB8F-DC77-2B3C-3CC6F62D5CEE" refContainerID="2172606B-D7FB-A69F-12A1-C633FFE09CDE"/>
+   <object objectType="FKIndexAssociation" objectID="CD82F273-58BD-123F-156A-2482D3CAF48F" name="Review_User_FK" seqName="seg_0" containerID="4E849DDB-3BB2-DEA0-9A81-49FCDB76C57D" refContainerID="D0C6F6FF-EF90-8554-70EE-0F8D625BFB54"/>
+   <object objectType="FKIndexAssociation" objectID="E8405A26-F102-6A82-2D38-C0E903BBF2EC" name="UserDetails_User_FK" seqName="seg_0" containerID="701F22C5-91AF-55E0-3DB1-7FFEF7F3A7C8" refContainerID="D0C6F6FF-EF90-8554-70EE-0F8D625BFB54"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
